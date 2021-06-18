@@ -10,7 +10,7 @@ namespace Play.Catalog.Service.Entites
 
         public string Description { get; set; }
 
-        public string Price { get; set; }
+        public decimal Price { get; set; }
 
         public DateTimeOffset CreatedDate { get; set; }
 
